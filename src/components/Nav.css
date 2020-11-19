@@ -1,6 +1,6 @@
 .nav {
   display: flex ;
-  background-color: rgb(197, 94, 34);
+  background-color:aquamarine ;
   justify-content: space-between;
   align-items: center;
 }
