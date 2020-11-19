@@ -48,6 +48,7 @@ class Form extends React.Component {
         <div className="form-style">
             
             <h1> What do you want to exchange ?</h1>     
+            
                 <form onSubmit={this.submitForm} className="body-form">
 
                     <label for="name">Product to exchange</label>
