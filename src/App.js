@@ -1,6 +1,6 @@
 import Caroussel from './components/Caroussel';
 import Search from './components/Search';
-import './App.css';
+import Form from "./components/Form"
 
 import './App.css';
 
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Caroussel />
       <Search />
+      <Form />
     </div>
   );
 }
