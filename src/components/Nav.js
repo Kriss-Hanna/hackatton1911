@@ -25,7 +25,7 @@ function Nav() {
 
   return (
     <div className="nav">
-      <img src="logohaka.png" alt ="" />
+      <img src="logohaka.png" alt ="logo" />
       <div className="connect">
         <button onClick={login}> Connexion </button>
         {user && (
