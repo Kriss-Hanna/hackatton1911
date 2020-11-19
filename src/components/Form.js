@@ -24,7 +24,7 @@ class Form extends React.Component {
                     <input type="text" id="picture" name="product_picture"/>
                     <br/>
                     <br/>   
-                    <button>Validate</button>
+                    <button>Submit</button>
                     <br/>
                     <br/>   
 
