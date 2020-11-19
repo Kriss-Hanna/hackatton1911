@@ -1,0 +1,19 @@
+/* .slider {
+  width: 100%;
+  background-color: silver;
+  border: 2px solid red;
+}
+
+.slides {
+  /* width: calc(500px * 3); */
+
+/* border: 2px solid blue; */
+
+/* .slide {
+  float: left;
+} */
+.slides {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
