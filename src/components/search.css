@@ -1,14 +1,23 @@
 .search-display {
- 
-
-  background-color:aquamarine;
+  background-color: rgb(73, 8, 19);
+  margin-bottom: 120px;
 }
 
 .search-img img {
   width: 200px;
   height: 300px;
+  margin-top: 20px;
+  padding: 2em;
 }
 .search-img {
   display: flex;
   justify-content: space-evenly;
+}
+
+.search-display h1 {
+  padding: 1em;
+}
+
+.search-display p {
+  margin: 2em;
 }
