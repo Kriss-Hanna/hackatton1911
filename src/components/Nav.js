@@ -25,7 +25,7 @@ function Nav() {
 
   return (
     <div className="nav">
-      <img src="https://cdn.discordapp.com/attachments/778906169681903616/778935603437109248/logohaka.png" />
+      <img src="logohaka.png" alt ="logo" />
       <div className="connect">
         <button onClick={login}> Connexion </button>
         {user && (
