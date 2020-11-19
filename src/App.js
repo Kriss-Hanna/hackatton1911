@@ -1,9 +1,9 @@
-import Caroussel from './components/Caroussel';
-import Search from './components/Search';
+import Caroussel from "./components/Caroussel";
+import Search from "./components/Search";
 import Form from "./components/Form";
-import Nav from "./components/Nav"
+import Nav from "./components/Nav";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
