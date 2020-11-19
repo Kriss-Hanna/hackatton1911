@@ -1,0 +1,14 @@
+.search-display {
+ 
+
+  background-color:aquamarine;
+}
+
+.search-img img {
+  width: 200px;
+  height: 300px;
+}
+.search-img {
+  display: flex;
+  justify-content: space-evenly;
+}
