@@ -8,7 +8,7 @@ const array = [
   {
     name: "Charret",
     picture:
-      "https://seniors-en-mission.net/images/Images-Ane-et-charette/Ane-Charrete-1-Gh.jpg",
+      "gargantua.jpg",
   },
   {
     name: "Donkey",

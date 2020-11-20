@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./Nav.css";
 
+
 function Nav() {
   const [user, setUSer] = useState(false);
 
   const [logUser, setLogUser] = useState({
-    id: "",
-    email: "",
+    firstName: "",
+    lastName : "",
   });
 
   const login = () => {
@@ -18,56 +19,56 @@ function Nav() {
   };
   console.log(logUser);
 
-  const submit = (e) => {   
-    e.preventDefault();
-    const config = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: qs.stringify(this.state),
-    };
+  // const submit = (e) => {   
+  //   e.preventDefault();
+  //   const config = {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: qs.stringify(this.state),
+  //   };
 
-    const url = "...";
+  //   const url = "...";
 
-    fetch(url, config)
-      .then((res) => res.json())
-      .then((res) => {
-        if (res.error) {
-          alert(res.error);
-        } else {
-          alert(`Your ad for ${res} has been published!`);
-        }
-      })
-      .catch((e) => {
-        console.error(e);
-        alert("Your ad has not been published, please start over.");
-      });
-  };
-
+  //   fetch(url, config)
+  //     .then((res) => res.json())
+  //     .then((res) => {
+  //       if (res.error) {
+  //         alert(res.error);
+  //       } else {
+  //         alert(`Your ad for ${res} has been published!`);
+  //       }
+  //     })
+  //     .catch((e) => {
+  //       console.error(e);
+  //       alert("Your ad has not been published, please start over.");
+  //     });
+  // };
+console.log(logUser)
   return (
     <div className="nav">
       <img src="logohaka.png" alt="logo" />
       <div className="connect">
         <button onClick={login}> Connexion </button>
         {user && (
-          <form onSubmit={submit}>
+          <form >
             <label> Identifiant </label>
             <input
               type="text"
               placeholder="Enter your name"
-              name="id"
+              name="firstName"
               onChange={change}
-              value={logUser.id}
+              value={logUser.firstName}
             />
 
             <label> email</label>
             <input
               type="text"
               placeholder="Enter your name"
-              name="email"
+              name="lastName"
               onChange={change}
-              value={logUser.email}
+              value={logUser.lastName}
             />
             <input type="submit" value="send" />
           </form>
