@@ -1,6 +1,7 @@
 .search-display {
-  background-color: rgb(73, 8, 19);
+  background-color: #997a8d;
   margin-bottom: 120px;
+  display: inline;
 }
 
 .search-img img {
@@ -10,7 +11,7 @@
   padding: 2em;
 }
 .search-img {
-  display: flex;
+  
   justify-content: space-evenly;
 }
 
