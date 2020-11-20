@@ -4,9 +4,20 @@
     height: 100%;
     padding-top: 10%;
     font-family: 'MedievalSharp', cursive;
+    padding: 2em;
 }
 .form-style h1 {
     margin-bottom : 2em;
 }
 
+.img-form {
+    
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.card-on{
+    border : red 2px solid
+}
 
